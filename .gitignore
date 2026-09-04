@@ -1,0 +1,15 @@
+# 가상환경·캐시
+.venv/
+__pycache__/
+*.pyc[oc]
+build/
+dist/
+wheels/
+*.egg.info
+# 비밀정보 — 절대 커밋 금지 (.env.example 만 올린다)
+.env
+# Streamlit Secrets — 로컬에서 쓰더라도 올리지 않는다. 배포 후에는 Streamlit Cloud 의 Secrets 화면에 넣는다 (21일차)
+.streamlit/secrets.toml
+
+# 실습용 임시 측정 스크립트 (토큰을 붙여넣어 쓰는 파일이라 올리지 않는다)
+

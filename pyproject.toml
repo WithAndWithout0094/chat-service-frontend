@@ -1,0 +1,20 @@
+[project]
+name = "chat-service-ai-frontend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "신영석", email = "ryan004799@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "streamlit>=1.62.0",
+]
+
+[project.scripts]
+chat-service-ai-frontend = "chat_service_ai_frontend:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
